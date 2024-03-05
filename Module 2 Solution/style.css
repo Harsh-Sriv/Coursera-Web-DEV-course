@@ -1,0 +1,12 @@
+@media(min-wid: 992px){
+    div{
+        box-sizing: border-box;
+        width: 33.33%;
+        height:20px;
+        border-color: black;
+        border-width: 1px; 
+    }
+    h1{
+        float:right;
+    }
+}
