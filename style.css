@@ -56,21 +56,17 @@ h1{
 
 @media(min-width: 992px){
     .col-lg-4{
-        div{
         width: 31.33%; /* Adjusted width to accommodate 3 boxes with margins */
-        }
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .col-md-6{
-        div{
         width: 48%; /* Adjusted width to accommodate 2 boxes with margins */
         }
-    }.col-md-12{
-        div{
+    }
+    .col-md-12{
         width: 100%; /* Adjusted width to accommodate 1 box with margins */
         }
-    }
 }
 @media (max-width: 767px){
     .col-sm-12{
