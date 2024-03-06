@@ -1,77 +1,83 @@
 div {
-    box-sizing: border-box; /* Adjusted width to accommodate 3 boxes with margins */
-    height: 200px; /* Added 'px' unit for height */
-    overflow: auto; /* Added overflow property to create scroll bar when content exceeds height */
+    box-sizing: border-box;
+  
+    overflow: auto;
     border: 2px blueviolet solid;
     padding: 10px;
-    margin: 10px 1%; /* Adjusted margin to create space between boxes */
+    margin: 10px 1%;
     border-radius: 5px;
     box-shadow: 2px 2px 2px #e0e0e0;
     float: left;
-    position: relative;/* Added position property to div */
 }
-h1{
-    color:rgb(246, 250, 250);
+
+h1 {
+    color: rgb(246, 250, 250);
     text-align: right;
 }
 
-#omen{
+#omen {
     background-image: url('https://i.pinimg.com/originals/7a/f3/6e/7af36e3f2da8ec425edac04747a8f3a3.png');
     background-size: contain;
     background-position: center;
-    p{
-        color:rgb(246, 250, 250);
-        font-family: 'Brush Script MT', cursive;
-        font-weight: bold;
-        background-color:#1d2b3a;
-    }
 }
 
-#yoru
-{
+#omen p {
+    color: rgb(246, 250, 250);
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    background-color: #1d2b3a;
+}
+
+#yoru {
     background-image: url('https://w0.peakpx.com/wallpaper/13/629/HD-wallpaper-video-game-valorant-yoru-valorant.jpg');
     background-size: contain;
     background-position: center;
-    p{
-        font-family: 'Brush Script MT', cursive;
-        font-weight: bold;
-        background-color: #2587be;
-    }
 }
 
-#cypher
-{
-    h1{
-        color: black;
-    }
+#yoru p {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    background-color: #2587be;
+}
+
+#cypher {
     background-image: url('https://pbs.twimg.com/media/FzbDkaCX0AEa0R3.jpg:large');
     background-size: contain;
     background-position: center;
-    p{
-        font-family: 'Brush Script MT', cursive;
-        font-weight: bold;
-        background-color:antiquewhite;
+}
+
+#cypher p {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+#cypher h1 {
+    color: black;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4{
+        width: 31.33%;
+        height: 200px;
     }
 }
 
-@media(min-width: 992px){
-    .col-lg-4{
-        width: 31.33%; /* Adjusted width to accommodate 3 boxes with margins */
-    }
-}
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
     .col-md-6{
-        width: 48%; /* Adjusted width to accommodate 2 boxes with margins */
-        }
+        width: 48%;
+        height: 200px;
     }
+
     .col-md-12{
-        width: 100%; /* Adjusted width to accommodate 1 box with margins */
-        }
+        width: 100%;
+        height: 200px;
+    }
 }
-@media (max-width: 767px){
+
+@media (max-width: 767px) {
     .col-sm-12{
-        div{
-        width: 100%; /* Adjusted width to accommodate 1 box with margins */
-        }
+        width: 100%;
+        height: 350px;
     }
 }
